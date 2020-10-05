@@ -13,6 +13,28 @@
         <title>Prova POO</title>       
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        footer {
+            /*deixa o texto no fim da página*/
+            position: inherit;
+            bottom: 0px;   
+            width: 100%;
+        }
+        
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+          flex: 1 0 auto;
+        }
+        #logo{
+
+            padding-left: 25px;
+        }
+    </style>
     </head>
     <body>
         <header>
