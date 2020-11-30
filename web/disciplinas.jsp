@@ -35,7 +35,7 @@
                 <th>Ementa</th>
                 <th>Ciclo</th>
                 <th>Nota</th>
-                <th>Editar nota</th>
+                    <th>Editar nota</th>
             </tr>
             <%for(int i=0; i<getDisciplinas.size(); i++){%>
             <% Disciplina disciplina = getDisciplinas.get(i); %>

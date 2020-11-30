@@ -1,5 +1,4 @@
-            </div>
-        </main>
+          
         <footer class="indigo lighten-1 page-footer">
           <div class="container">
             <div class="row">
@@ -11,7 +10,6 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text"><a class="grey-text text-lighten-3" href="sobre.jsp">Sobre</a></h5>
                 <h5 class="white-text"><a class="grey-text text-lighten-3" href="disciplinas.jsp">Disciplinas</a></h5>
-                </ul>
               </div>
             </div>
           </div>

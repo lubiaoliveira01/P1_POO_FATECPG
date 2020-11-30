@@ -18,8 +18,8 @@ public class Disciplina {
     private int ciclo;
     private double nota;
 
-    public static ArrayList<Disciplina> getList(ArrayList listaDisciplinas) {
-        ArrayList<Disciplina> minhasDisciplinas = listaDisciplinas;
+    public static ArrayList<Disciplina> getList() {
+        ArrayList<Disciplina> minhasDisciplinas = new ArrayList<>();
 
         return minhasDisciplinas;
     }
