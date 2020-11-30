@@ -6,7 +6,11 @@
 package avaliacao;
 
 import java.util.ArrayList;
-
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import banco.Listener;
+import java.sql.PreparedStatement;
 /**
  *
  * @author lubia
@@ -62,4 +66,23 @@ public class Disciplina {
         this.nota = nota;
     }
 
+    public status ArrayList<Disciplina> getList() throws Exception{
+        ArrayList<Disciplina> list = new ArrayList<>();
+        
+        Connection con = null;
+        Statement stmt = null;
+        ResultSet rs = null;
+        
+        Exception methodException = null;
+        
+        try{
+            con = Listener.getConnection();
+            stmt = con.createStatement();
+            rs = stmt.executeQuery("SELECT * FROM disciplinas");
+            
+            while(rs.next()){
+                list.add(new Disciplina)
+            }
+        }
+    }
 }
